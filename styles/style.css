@@ -176,7 +176,7 @@ body {
 .best-offer {
     margin-top: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .best-offer .offer-img {
@@ -347,7 +347,7 @@ footer p {
 .holiday-heading p {
     color: rgba(7, 2, 17, 0.60);
     width: 900px;
-    
+
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -356,21 +356,99 @@ footer p {
     margin: 0 auto;
     /* 160% */
 }
-.full-width img{
+
+.full-width img {
     width: 100%;
     background-repeat: repeat-x;
 }
 
-.holiday{
+.holiday {
     background: url("../resources/Rectangle\ 2.png");
     background-repeat: no-repeat;
     background-position: bottom;
     padding: 20px;
 }
-.holiday-image img{
+
+.holiday-image img {
     margin-bottom: 200px;
     justify-content: space-between;
+    flex-grow: 1;
 }
-.holiday-heading{
+
+.holiday-heading {
     margin-bottom: 200px;
 }
+
+.offer-text {
+    width: 500px;
+}
+
+.offer-text h2 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.offer-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.offer-text p {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.offer-img img {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    width: 364px;
+
+
+}
+.offer-24{
+    width: 400px;
+}
+.offer-24 h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    
+}
+
+.offer-24 p
+    {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+.gradiant{
+    
+    padding:100px 0 100px 0;
+
+    /* background: rgb(2,0,36); */
+/* background: linear-gradient(180deg, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.00) 100%, rgba(0,212,255,1) 100%); */
+}
+
+/* fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
