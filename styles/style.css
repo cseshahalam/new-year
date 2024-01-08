@@ -14,7 +14,7 @@ body {
 .banner-bg {
     background: url("../resources/Banner\ Image.png");
     max-width: 1460px;
-    padding: 200px;
+    padding: 200px 0 200px 0;
 }
 
 .banner-text h3 {
@@ -41,11 +41,11 @@ body {
 
 .container-off {
 
-    margin: 20px 380px;
+    margin: 0 auto;
 }
 
 .container-off-content {
-    width: 1600px;
+    /* width: 1600px; */
 
     text-align: center;
 }
@@ -83,11 +83,12 @@ body {
 .section-welcome {
     background: url("../resources/Vectorrr.png");
     width: 100%;
-    margin: 30px auto;
-    padding: 100px 200px;
+    margin: 0 auto;
+    padding: 100px 0  200px 0;
     background-repeat: repeat-x;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0;
 }
 
 .section-welcome .welcome-text h2 {
@@ -96,7 +97,7 @@ body {
     font-size: 64px;
     font-style: normal;
     font-weight: 900;
-    line-height: 88px;
+    /* line-height: 88px; */
     letter-spacing: 7.04px;
     width: 642px;
 }
@@ -108,7 +109,7 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px;
+    /* line-height: 30px; */
 
 }
 
@@ -200,7 +201,7 @@ body {
 
 footer {
     background: #070211;
-    width: 1600px;
+    /* width: 1600px; */
     padding: 100px
 }
 
@@ -444,9 +445,10 @@ footer p {
     /* 160% */
 }
 .gradiant{
+    margin-top: 0;
     
     padding:100px 0 100px 0;
-
+    background-color: antiquewhite;
     /* background: rgb(2,0,36); */
 /* background: linear-gradient(180deg, rgba(255,0,0,0.10) 0%, rgba(255,0,0,0.00) 100%, rgba(0,212,255,1) 100%); */
 }
